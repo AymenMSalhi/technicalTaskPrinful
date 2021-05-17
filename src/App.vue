@@ -88,7 +88,6 @@ export default {
       reponseid: null,
       selectedAnswer: null,
       correctanswer: 0,
-      selectedoption: null
 
     }
   },
@@ -128,10 +127,6 @@ export default {
       this.select = true;
       this.next = true;
 
-    },
-
-    focusevent(i) {
-      alert(i);
     },
 
     nextQuestion() {
